@@ -25,29 +25,44 @@ etl-ventas-colab/
 │
 ├── data/
 │ ├── ventas_crudas.csv
+
 │ ├── productos.csv
+
 │ ├── tiendas.csv
+
 │
 ├── output/
 │ ├── ventas_transformadas.csv
+
 │ ├── datamart_fact_ventas.csv
+
 │ ├── datamart_dim_producto.csv
+
 │ ├── datamart_dim_tienda.csv
+
 │ ├── datamart_dim_tiempo.csv
+
 │ ├── resumen_ejecutivo.csv
+
 │ ├── reporte_ejecutivo.txt
+
 │ ├── grafico_ventas_por_ciudad.png
+
 │ ├── grafico_ventas_por_categoria.png
+
 │ ├── grafico_transacciones_por_dia.png
+
 │ └── histograma_venta_total.png
+
 │
 ├── notebook/
+
 │ └── ETL_Ventas.ipynb
 │
 └── README.md
 
 yaml
-Copiar código
+
 
 ---
 
@@ -147,5 +162,7 @@ Data Mart: archivos CSV estructurados para análisis de BI
 
 👨‍💻 Autores
 Luis Ernesto Caro Barrera - Daniel Esteban Lopez Suarez
+
 Proyecto académico — Análisis ETL de Ventas
+
 Desarrollado con Python y Google Colab
